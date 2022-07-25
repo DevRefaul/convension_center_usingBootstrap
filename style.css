@@ -1,0 +1,310 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+/* ----------
+    header section style started
+------------- */
+
+.navbar-brand{
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 33px;
+    color: #3E3E3E;
+}
+
+.nav-link{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #3E3E3E;
+}
+
+
+
+
+/* body section css style started */
+#carousel{
+    margin-bottom: 100px;
+}
+.carousel-caption h5{
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 58px;
+}
+.carousel-caption .btn{
+    margin-bottom: 40px;
+    border-radius: 5px;
+    padding: 10px 44px;
+}
+.carousel-caption .btn a{
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 16px;
+}
+/* carousel style done */
+
+/* album section style started */
+#album{
+    margin-bottom: 100px;
+}
+.album-text h2{
+    color: #0A0826;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 60px;
+}
+.album-text p{
+    color: #6C6C6C;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 28px;
+}
+.album-text .btn{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+ }
+.toast-header{
+    background-color: #fff;
+    border-left: 8px solid skyblue;
+}
+ /* album section end */
+
+ /* pricing sections style started */
+#pricing{
+    margin-bottom:100px ;
+}
+ .price-title{
+    color: #0A0826;
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 57px;
+ }
+.pricing-cards{
+    margin-top: 100px;
+}
+.pricing-cards .card{
+    border: none;
+    padding: 50px 30px;
+    background-color: rgba(0, 0, 0, 0);
+}
+.pricing-cards .card:hover{
+    background: #3F87F5;
+    box-shadow: 0px 42px 34px rgba(63, 135, 245, 0.25);
+    border-radius: 26px;
+}
+.pricing-cards .card:hover h1 {
+    color: #fff;
+}
+.pricing-cards .card:hover h3 {
+    color: #fff;
+}
+.pricing-cards .card:hover p {
+    color: #fff;
+}
+.pricing-cards .card:hover ul li {
+    color: #fff;
+}
+.pricing-cards .card:hover .btn {
+    background-color: #fff;
+    color: #F496D1;
+}
+.pricing-cards .card h1{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 46px;
+    color: #231D4F;
+}
+.pricing-cards .card h3{
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 33px;
+    color: #231D4F;
+}
+.pricing-cards p{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    color: #848199;
+    margin-bottom: 20px;
+}
+.pricing-cards ul li{
+    list-style-type: none;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    color: #848199;
+    margin-bottom: 10px;
+}
+.pricing-cards .btn{
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    color: #fff;
+    outline: none;
+    border: none;
+    background-color: #F496D1;
+}
+.start-100 {
+    left: 80% !important;
+}
+  /* pricing sections style done */
+
+   /* reviw sections style started */
+#review{
+    margin-bottom: 100px;
+}
+ .review-title {
+     color: #0A0826;
+     font-weight: 600;
+     font-size: 38px;
+     line-height: 57px;
+ }
+.review-cards{
+    margin-top: 100px;
+}
+
+   /* reviw sections style done*/
+
+
+ /* faq sections style started */
+#faq{
+    margin-bottom: 100px;
+}
+ .faq-title {
+     color: #0A0826;
+     font-weight: 600;
+     font-size: 38px;
+     line-height: 57px;
+ }
+.faq-items{
+    margin-top: 100px;
+}
+.accordion-item{
+    border: 1px solid #D5E5FB !important;
+    border-radius: 5px;
+}
+ /* faq sections style started */
+
+ /* footer sections style started */
+
+ #footer{
+    background: #0B0D17;
+ }
+#footer .container{
+    padding: 50px 0px;
+}
+#footer h4,h5{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #D9DBE1;
+}
+
+ /* footer sections style started */
+
+ /* media query's started */
+
+ @media only screen and (max-width:576px) {
+    
+    .carousel-inner img{
+        height: 80vh;
+        object-fit: cover;
+    }
+    .carousel-caption h5{
+        color: #fff;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 36px;
+    }
+    .carousel-caption p{
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 24px;
+        color: #fff;
+    }
+
+    .pricing-cards {
+        margin-top: 20px;
+    }
+    .review-cards {
+        margin-top: 50px;
+    }
+        .card-group .card:nth-child(2) {
+            margin: 20px 0px !important;
+        }
+    .faq-items {
+        margin-top: 50px;
+    }
+    .faques{
+        margin-bottom: 50px;
+    }
+    .f-img img{
+        width: 25% !important;
+    }
+ }
+ @media only screen and (min-width:577px) and (max-width:767px) {
+    
+    .carousel-inner img{
+        height: 80vh;
+        object-fit: cover;
+    }
+    .carousel-caption h5{
+        color: #fff;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 36px;
+    }
+    .carousel-caption p{
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 24px;
+        color: #fff;
+    }
+    .card-group .card:nth-child(2){
+        margin: 20px 0px !important;
+    }
+ }
+
+ @media only screen and (min-width:768px) and (max-width:991px) {
+     .carousel-inner img{
+        height: 50vh;
+        object-fit: cover;
+    }
+    .carousel-caption h5{
+        color: #fff;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 36px;
+    }
+    .carousel-caption p{
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 24px;
+        color: #fff;
+    }   
+
+
+ }
+
+ @media only screen and (min-width:992px) and (max-width:1199px) {
+    
+
+
+ }
+
+ @media only screen and (min-width:1200px) and (max-width:1399px) {
+    
+  
+
+ }
+ @media only screen and (min-width:1400px) {
+    
+ 
+
+ }
